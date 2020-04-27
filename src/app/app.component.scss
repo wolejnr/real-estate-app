@@ -1,0 +1,41 @@
+.listing-box {
+    border-radius: 10px;
+    height: 300px;
+    cursor: pointer;
+    margin-bottom: 60px;
+    -webkit-box-shadow: -2px 35px 250px -66px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 35px 250px -66px rgba(0,0,0,0.75);
+box-shadow: -2px 35px 250px -66px rgba(0,0,0,0.75);
+    .listing-img {
+        background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRlXigELpO-ICg7fs_ba9OAw7Gfwi21SFyKMZNYzYsnCDfubzyh&usqp=CAU');
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        .listing-title {
+            position: absolute;
+            color: white;
+            bottom: 0;
+            padding: 10px;
+            text-shadow: 1px 1px 6px rgba(150, 150, 150, 1);
+        }
+    }
+    .listing-price {
+        padding: 15px;
+    }
+    .listing-location {
+        padding: 0 15px;
+        color: #cdd0d7;
+        .city {
+            padding-left: 10px;
+        }
+    }
+}
+
+
+footer {
+    margin: 3rem 0 0 0 !important;
+}
